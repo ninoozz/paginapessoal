@@ -1,0 +1,123 @@
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+/* Container principal para centralizar o conteúdo */
+.container {
+    max-width: 800px; /* Define a largura máxima do conteúdo */
+    width: 100%; /* Faz o conteúdo ocupar toda a largura disponível até o máximo */
+    padding: 20px;
+    background-color: #fff; /* Fundo branco para o conteúdo */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adiciona sombra ao redor do conteúdo */
+    margin-bottom: 40px; /* Espaçamento inferior para criar uma separação visual */
+}
+
+/* Estilo para o cabeçalho principal */
+h1 {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin: 0;
+}
+
+/* Estilo para o menu de navegação */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: #444;
+}
+
+ul li {
+    display: inline;
+    margin: 0 20px; /* Aumenta o espaço entre os itens do menu */
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: #ff6600;
+}
+
+/* Estilo para as seções da página */
+h3 {
+    color: #333;
+    padding: 20px 0; /* Aumenta o padding para mais espaço interno */
+    background-color: #e2e2e2;
+    border-left: 5px solid #444;
+    margin-top: 40px; /* Aumenta o espaço acima dos títulos */
+    margin-bottom: 40px; /* Aumenta o espaço abaixo dos títulos */
+    text-align: center; /* Alinha os títulos ao centro */
+}
+
+p {
+    padding: 0 20px;
+    margin-bottom: 30px; /* Aumenta o espaço abaixo dos parágrafos */
+}
+
+/* Estilo para o botão de voltar ao topo */
+a[href="#l5"] {
+    display: block;
+    text-align: center;
+    margin: 40px 0; /* Aumenta o espaço ao redor do link */
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+}
+
+a[href="#l5"]:hover {
+    color: #ff6600;
+}
+
+/* Estilo para o formulário de contato */
+form {
+    max-width: 600px;
+    margin: 40px auto; /* Aumenta o espaço ao redor do formulário */
+    background: #fff;
+    padding: 30px; /* Aumenta o padding interno do formulário */
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #444;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+}
+
+form input[type="submit"]:hover {
+    background-color: #ff6600;
+}
